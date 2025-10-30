@@ -1,8 +1,8 @@
 const express = require('express');
-const helmet = requiere ('helmet');
+const helmet = require ('helmet');
 const app = express ();
 
-app.use(helmet.hide.PoweredBy())
+app.use(helmet.hidePoweredBy());
 module.exports = app;
 
 
