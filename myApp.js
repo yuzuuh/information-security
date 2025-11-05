@@ -15,6 +15,7 @@ app.use(helmet.hsts({
 }));
 
 app.use(helmet.dnsPrefetchControl());
+app.use(helmet.noCache());
 
 module.exports = app;
 
